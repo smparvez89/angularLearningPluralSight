@@ -6,6 +6,6 @@ import { Pipe, PipeTransform } from '@angular/core'
 })
 export class ConvertToSpacesPipe implements PipeTransform {
     transform(value: string, charecter: string): string {
-        return value.replace(charecter,' ');
+        return value.replace(charecter, ' ');
     }
 }
